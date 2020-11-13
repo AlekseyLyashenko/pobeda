@@ -75,12 +75,17 @@ body {
   }
 }
 @media (max-width: 500px) {
-  .hero {
-	-webkit-overflow-scrolling: touch;
-    background: url(../img/hero_mobile.jpg) center center / cover no-repeat fixed;
+  .hero:before {
+	background: url(../img/hero_mobile.jpg) center center / cover no-repeat;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: -1;
   }
 }
-
 
 .hero__gradient {
   height: 100%;
