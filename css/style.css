@@ -75,7 +75,7 @@ body {
 }
 @media (max-width: 500px) {
   .hero {
-    background: url(../img/hero_mobile.jpg) center center / cover no-repeat fixed;
+    background: url(../img/hero_mobile.jpg) center center / cover no-repeat local;
   }
 }
 
