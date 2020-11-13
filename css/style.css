@@ -70,12 +70,14 @@ body {
 }
 @media (max-width: 768px) {
   .hero {
+	  -webkit-overflow-scrolling: touch;
     background: url(../img/hero.jpg) right 0 / cover no-repeat fixed;
   }
 }
 @media (max-width: 500px) {
   .hero {
-    background: url(../img/hero_mobile.jpg) center center / cover no-repeat;
+	-webkit-overflow-scrolling: touch;
+    background: url(../img/hero_mobile.jpg) center center / cover no-repeat fixed;
   }
 }
 
