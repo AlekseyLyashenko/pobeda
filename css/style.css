@@ -861,6 +861,7 @@ body {
 }
 .adress {
   display: flex;
+text-decoration: none;
 }
 .adress__svg:before {
   content: '';
